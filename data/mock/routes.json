@@ -1,0 +1,666 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Cornerstone Pharmacy",
+          "path": "/homepage",
+          "heroTitle": "Your Neighborhood Pharmacy, Reimagined",
+          "heroSubtitle": "Cornerstone Pharmacy",
+          "heroDescription": {
+            "processed": "<p>More than a place to pick up prescriptions. Cornerstone Pharmacy combines the personal service of a local pharmacy with the clinical expertise you deserve. From medication management to immunizations and wellness screenings, we are your partner in health.</p>",
+            "summary": "More than a place to pick up prescriptions. Cornerstone Pharmacy combines the personal service of a local pharmacy with the clinical expertise you deserve. From medication management to immunizations "
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80",
+            "alt": "Modern pharmacy counter with pharmacist consulting a customer",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-prescriptions",
+              "title": "",
+              "number": "500,000+",
+              "label": "Prescriptions Filled Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "35+",
+              "label": "Years Serving Our Community"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-locations",
+              "title": "",
+              "number": "3",
+              "label": "Convenient Locations"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-pharmacists",
+              "title": "",
+              "number": "12",
+              "label": "Licensed Pharmacists"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Transfer Your Prescriptions",
+          "ctaDescription": {
+            "processed": "<p>Switching to Cornerstone is easy. We handle the entire transfer process for you. Simply provide us with the name and phone number of your current pharmacy, and we'll take care of the rest. Most transfers are completed within one business day.</p>",
+            "summary": "Switching to Cornerstone is easy. We handle the entire transfer process for you. Simply provide us with the name and phone number of your current pharmacy, and we'll take care of the rest. Most transf"
+          },
+          "ctaPrimary": "Transfer Now",
+          "ctaSecondary": "Find a Location"
+        }
+      }
+    }
+  },
+  "/services/prescription-filling": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-prescription",
+          "title": "Prescription Filling & Refills",
+          "path": "/services/prescription-filling",
+          "body": {
+            "processed": "<p>At the heart of everything we do is our commitment to filling your prescriptions accurately, affordably, and conveniently. Our pharmacists personally review every prescription for safety and appropriateness, checking for drug interactions, allergies, and correct dosing.</p><h2>How We're Different</h2><ul><li><strong>Personal attention:</strong> You'll see the same familiar faces every visit. Our pharmacists know you by name, not just your prescription number.</li><li><strong>Short wait times:</strong> Most prescriptions are ready in 15 minutes or less. We respect your time.</li><li><strong>Insurance navigation:</strong> We work with all major insurance plans and actively seek the lowest price for your medications, including manufacturer coupons and patient assistance programs.</li><li><strong>Automatic refills:</strong> Never miss a dose. Enroll in our automatic refill program and we'll have your medications ready before you run out.</li></ul><h2>Convenient Options</h2><ul><li>Online and mobile app prescription ordering</li><li>Drive-through pickup at our Oakwood and Riverside locations</li><li>Free home delivery within a 10-mile radius</li><li>90-day supply options for maintenance medications</li></ul>",
+            "summary": "At the heart of everything we do is our commitment to filling your prescriptions accurately, affordably, and conveniently. Our pharmacists personally review every prescription for safety and appropria"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&q=80",
+            "alt": "Pharmacist carefully counting and dispensing prescription medication",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Accurate, affordable prescription services with short wait times, automatic refills, and personalized pharmacist consultations.</p>",
+            "summary": "Accurate, affordable prescription services with short wait times, automatic refills, and personalized pharmacist consultations."
+          },
+          "availability": "All locations, during regular pharmacy hours",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Prescription Services",
+              "name": "Prescription Services"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/services/immunizations": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-immunizations",
+          "title": "Immunizations & Vaccines",
+          "path": "/services/immunizations",
+          "body": {
+            "processed": "<p>Protect yourself and your family with convenient immunizations at Cornerstone Pharmacy. Our certified immunizing pharmacists administer a full range of vaccines for adults and children, often with no appointment necessary.</p><h2>Vaccines We Offer</h2><ul><li>Influenza (flu) - seasonal, high-dose for seniors available</li><li>COVID-19 - all approved boosters and updated formulations</li><li>Shingles (Shingrix)</li><li>Pneumococcal (Prevnar 20, Pneumovax 23)</li><li>Tdap (tetanus, diphtheria, pertussis)</li><li>Hepatitis A and B</li><li>Meningococcal</li><li>HPV (Gardasil 9)</li><li>RSV (for eligible adults 60+)</li><li>Travel vaccines (consult with our travel health pharmacist)</li></ul><h2>How It Works</h2><p>Walk in or schedule online. Complete a brief screening form. Our pharmacist will administer your vaccine and provide a digital record for your files. Most vaccines take less than 15 minutes from start to finish.</p><h2>Insurance Coverage</h2><p>Most immunizations are covered by insurance with no copay under preventive care benefits. For patients without insurance, we offer competitive cash pricing and can check eligibility for state-funded vaccine programs.</p>",
+            "summary": "Protect yourself and your family with convenient immunizations at Cornerstone Pharmacy. Our certified immunizing pharmacists administer a full range of vaccines for adults and children, often with no "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=800&q=80",
+            "alt": "Pharmacist administering a vaccine to a patient",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Walk-in immunizations for flu, COVID-19, shingles, pneumonia, and more. Most vaccines covered by insurance with no copay.</p>",
+            "summary": "Walk-in immunizations for flu, COVID-19, shingles, pneumonia, and more. Most vaccines covered by insurance with no copay."
+          },
+          "availability": "All locations, walk-ins welcome",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Immunizations",
+              "name": "Immunizations"
+            },
+            {
+              "id": "Preventive Care",
+              "name": "Preventive Care"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/services/custom-compounding": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-compounding",
+          "title": "Custom Compounding",
+          "path": "/services/custom-compounding",
+          "body": {
+            "processed": "<p>When commercially manufactured medications don't meet a patient's unique needs, our compounding pharmacists create customized medications tailored to individual requirements. Our state-of-the-art compounding lab at our Downtown location follows the highest quality and safety standards.</p><h2>When Compounding Is Needed</h2><ul><li><strong>Allergies or sensitivities:</strong> We can prepare medications without dyes, preservatives, gluten, lactose, or other allergens found in commercial products</li><li><strong>Discontinued medications:</strong> When a manufacturer discontinues a needed medication, we can often recreate it</li><li><strong>Pediatric dosing:</strong> Children often need smaller doses in flavored liquid or lozenge form</li><li><strong>Alternative dosage forms:</strong> Transdermal creams, suppositories, or sublingual preparations for patients who can't swallow pills</li><li><strong>Veterinary compounds:</strong> Flavored medications for pets who refuse standard formulations</li></ul><h2>Areas of Specialty</h2><ul><li>Hormone replacement therapy (BHRT)</li><li>Dermatology preparations</li><li>Pain management formulations</li><li>Pediatric suspensions and solutions</li><li>Veterinary compounds</li></ul><p>All compounding is performed by our specially trained pharmacists in an ISO-certified clean room environment.</p>",
+            "summary": "When commercially manufactured medications don't meet a patient's unique needs, our compounding pharmacists create customized medications tailored to individual requirements. Our state-of-the-art comp"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80",
+            "alt": "Pharmacist preparing custom compounded medication in a clean room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Customized medications tailored to individual patient needs, including allergen-free formulations, pediatric dosing, and hormone therapy.</p>",
+            "summary": "Customized medications tailored to individual patient needs, including allergen-free formulations, pediatric dosing, and hormone therapy."
+          },
+          "availability": "Downtown location only, by prescription",
+          "insuranceAccepted": false,
+          "serviceCategory": [
+            {
+              "id": "Compounding",
+              "name": "Compounding"
+            },
+            {
+              "id": "Specialty Pharmacy",
+              "name": "Specialty Pharmacy"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/health-tips/medication-safety-at-home": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHealthTip",
+          "id": "health-tip-medication-safety",
+          "title": "10 Essential Tips for Medication Safety at Home",
+          "path": "/health-tips/medication-safety-at-home",
+          "body": {
+            "processed": "<p>Properly managing your medications at home is critical for your health and safety. Medication errors are one of the leading causes of preventable harm, but most can be avoided with simple precautions. Here are ten essential tips from our pharmacists.</p><h2>1. Keep an Updated Medication List</h2><p>Maintain a current list of all medications, including prescription drugs, over-the-counter products, vitamins, and supplements. Include the drug name, dose, how often you take it, and what it's for. Bring this list to every doctor and pharmacy visit.</p><h2>2. Use One Pharmacy</h2><p>Using a single pharmacy for all your prescriptions allows your pharmacist to check for drug interactions across your entire medication profile.</p><h2>3. Read the Label Every Time</h2><p>Don't rely on memory or the appearance of the pill. Read the label each time you take your medication to confirm the name, dose, and instructions.</p><h2>4. Store Medications Properly</h2><p>Most medications should be stored in a cool, dry place away from direct sunlight. The bathroom medicine cabinet is actually one of the worst places because of heat and humidity. Keep all medications out of reach of children and pets.</p><h2>5. Never Share Prescriptions</h2><p>A medication prescribed for you may be dangerous for someone else, even if they have similar symptoms.</p><h2>6. Use a Pill Organizer</h2><p>Weekly pill organizers make it easy to see whether you've taken your daily medications and reduce the risk of missed or double doses.</p><h2>7. Set Reminders</h2><p>Use phone alarms, medication reminder apps, or link your medication schedule to daily routines (like mealtimes) to stay on track.</p><h2>8. Don't Crush or Split Without Asking</h2><p>Some medications have special coatings that control how they're absorbed. Crushing or splitting them can cause too much medication to be released at once. Always ask your pharmacist before altering a medication's form.</p><h2>9. Dispose of Medications Safely</h2><p>Don't flush medications or throw them in the trash. Bring expired or unused medications to our pharmacy for safe disposal through our drug take-back program.</p><h2>10. Ask Your Pharmacist</h2><p>Your pharmacist is one of the most accessible healthcare professionals. Never hesitate to ask questions about your medications, side effects, or potential interactions.</p>",
+            "summary": "Properly managing your medications at home is critical for your health and safety. Medication errors are one of the leading causes of preventable harm, but most can be avoided with simple precautions."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80",
+            "alt": "Organized pill organizer with daily medication doses",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Simple precautions to prevent medication errors at home, from proper storage to using pill organizers and keeping an updated medication list.</p>",
+            "summary": "Simple precautions to prevent medication errors at home, from proper storage to using pill organizers and keeping an updated medication list."
+          },
+          "topic": [
+            {
+              "id": "Medication Safety",
+              "name": "Medication Safety"
+            }
+          ],
+          "authorName": "Dr. Margaret Liu, PharmD",
+          "publishedDate": {
+            "timestamp": 1762322400
+          }
+        }
+      }
+    }
+  },
+  "/health-tips/preparing-for-flu-season": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHealthTip",
+          "id": "health-tip-flu-season",
+          "title": "Preparing for Flu Season: What You Need to Know",
+          "path": "/health-tips/preparing-for-flu-season",
+          "body": {
+            "processed": "<p>Influenza season typically runs from October through May, with peak activity between December and February. Getting vaccinated is the single most effective step you can take to protect yourself and those around you.</p><h2>Who Should Get a Flu Shot?</h2><p>The CDC recommends annual flu vaccination for everyone 6 months of age and older. Vaccination is especially important for:</p><ul><li>Adults 65 and older</li><li>Pregnant women</li><li>Children under 5 years of age</li><li>People with chronic medical conditions (asthma, diabetes, heart disease)</li><li>Healthcare workers and caregivers</li></ul><h2>When to Get Vaccinated</h2><p>The best time to get your flu shot is in September or October, before flu season begins. It takes about two weeks for the vaccine to provide full protection. However, getting vaccinated later in the season is still beneficial.</p><h2>Beyond the Vaccine</h2><p>In addition to vaccination, these habits help reduce your risk:</p><ul><li>Wash your hands frequently with soap and water for at least 20 seconds</li><li>Avoid touching your face, especially your eyes, nose, and mouth</li><li>Stay home when you're sick to avoid spreading illness</li><li>Clean frequently touched surfaces regularly</li><li>Get adequate sleep, exercise, and nutrition to support your immune system</li></ul><h2>If You Get the Flu</h2><p>Contact your doctor within 48 hours of symptom onset. Antiviral medications like Tamiflu can reduce the severity and duration of illness if started early. Stay hydrated, rest, and monitor for warning signs like difficulty breathing, chest pain, or persistent high fever.</p>",
+            "summary": "Influenza season typically runs from October through May, with peak activity between December and February. Getting vaccinated is the single most effective step you can take to protect yourself and th"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&q=80",
+            "alt": "Person receiving a flu vaccine at a pharmacy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Everything you need to know about flu season, including when to get vaccinated, who's at highest risk, and how to protect your family.</p>",
+            "summary": "Everything you need to know about flu season, including when to get vaccinated, who's at highest risk, and how to protect your family."
+          },
+          "topic": [
+            {
+              "id": "Seasonal Health",
+              "name": "Seasonal Health"
+            },
+            {
+              "id": "Preventive Care",
+              "name": "Preventive Care"
+            }
+          ],
+          "authorName": "Dr. Robert Kim, PharmD",
+          "publishedDate": {
+            "timestamp": 1757912400
+          }
+        }
+      }
+    }
+  },
+  "/health-tips/understanding-blood-pressure": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHealthTip",
+          "id": "health-tip-blood-pressure",
+          "title": "Understanding Your Blood Pressure Numbers",
+          "path": "/health-tips/understanding-blood-pressure",
+          "body": {
+            "processed": "<p>High blood pressure, or hypertension, is often called the 'silent killer' because it typically has no symptoms but significantly increases your risk of heart disease, stroke, and kidney disease. Understanding your blood pressure numbers is the first step toward managing this condition.</p><h2>What the Numbers Mean</h2><p>Blood pressure is recorded as two numbers:</p><ul><li><strong>Systolic (top number):</strong> The pressure in your arteries when your heart beats</li><li><strong>Diastolic (bottom number):</strong> The pressure in your arteries between heartbeats</li></ul><h2>Blood Pressure Categories</h2><ul><li><strong>Normal:</strong> Less than 120/80 mmHg</li><li><strong>Elevated:</strong> 120-129 / less than 80 mmHg</li><li><strong>High Blood Pressure Stage 1:</strong> 130-139 / 80-89 mmHg</li><li><strong>High Blood Pressure Stage 2:</strong> 140+ / 90+ mmHg</li><li><strong>Hypertensive Crisis:</strong> Higher than 180/120 mmHg (seek immediate medical attention)</li></ul><h2>Lifestyle Changes That Help</h2><ul><li>Reduce sodium intake to less than 2,300 mg per day</li><li>Exercise at least 150 minutes per week (brisk walking, cycling, swimming)</li><li>Maintain a healthy weight</li><li>Limit alcohol consumption</li><li>Manage stress through relaxation techniques</li><li>Follow the DASH diet (rich in fruits, vegetables, whole grains, and low-fat dairy)</li></ul><h2>Free Blood Pressure Checks</h2><p>Cornerstone Pharmacy offers free blood pressure screenings at all three locations. No appointment needed. Stop by during regular pharmacy hours and our staff will take your reading and help you understand what it means.</p>",
+            "summary": "High blood pressure, or hypertension, is often called the 'silent killer' because it typically has no symptoms but significantly increases your risk of heart disease, stroke, and kidney disease. Under"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+            "alt": "Blood pressure monitor showing a reading",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Learn what your blood pressure numbers mean, when to be concerned, and lifestyle changes that can make a real difference.</p>",
+            "summary": "Learn what your blood pressure numbers mean, when to be concerned, and lifestyle changes that can make a real difference."
+          },
+          "topic": [
+            {
+              "id": "Heart Health",
+              "name": "Heart Health"
+            },
+            {
+              "id": "Chronic Disease",
+              "name": "Chronic Disease"
+            },
+            {
+              "id": "Preventive Care",
+              "name": "Preventive Care"
+            }
+          ],
+          "authorName": "Dr. Margaret Liu, PharmD",
+          "publishedDate": {
+            "timestamp": 1768024800
+          }
+        }
+      }
+    }
+  },
+  "/locations/downtown": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeLocation",
+          "id": "location-downtown",
+          "title": "Downtown Location",
+          "path": "/locations/downtown",
+          "body": {
+            "processed": "<p>Our flagship Downtown location is the original Cornerstone Pharmacy, serving the community since 1991. This location houses our compounding lab, specialty pharmacy department, and full-service immunization clinic. The Downtown store also features an expanded health and wellness section with natural supplements, vitamins, and personal care products curated by our pharmacists.</p>",
+            "summary": "Our flagship Downtown location is the original Cornerstone Pharmacy, serving the community since 1991. This location houses our compounding lab, specialty pharmacy department, and full-service immuniz"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+            "alt": "Cornerstone Pharmacy Downtown storefront",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "address": "245 Main Street",
+          "city": "Maplewood",
+          "stateProvince": "NJ",
+          "postalCode": "07040",
+          "phone": "(555) 234-5678",
+          "fax": "(555) 234-5679",
+          "hours": {
+            "processed": "<ul><li>Monday - Friday: 8:00 AM - 8:00 PM</li><li>Saturday: 9:00 AM - 6:00 PM</li><li>Sunday: 10:00 AM - 4:00 PM</li></ul>",
+            "summary": "Monday - Friday: 8:00 AM - 8:00 PMSaturday: 9:00 AM - 6:00 PMSunday: 10:00 AM - 4:00 PM"
+          },
+          "servicesAvailable": [
+            "Prescription Filling",
+            "Custom Compounding",
+            "Immunizations",
+            "Specialty Pharmacy",
+            "Medication Therapy Management",
+            "Blood Pressure Screening",
+            "Free Delivery"
+          ],
+          "hasDriveThrough": false,
+          "pharmacistName": "Dr. Margaret Liu, PharmD"
+        }
+      }
+    }
+  },
+  "/locations/oakwood": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeLocation",
+          "id": "location-oakwood",
+          "title": "Oakwood Location",
+          "path": "/locations/oakwood",
+          "body": {
+            "processed": "<p>Our Oakwood location opened in 2010 to serve the growing needs of the west side of the community. This convenient location features a drive-through window for fast prescription pickup, a walk-in immunization clinic, and ample free parking. The Oakwood team prides itself on its friendly, neighborhood atmosphere and consistently short wait times.</p>",
+            "summary": "Our Oakwood location opened in 2010 to serve the growing needs of the west side of the community. This convenient location features a drive-through window for fast prescription pickup, a walk-in immun"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+            "alt": "Cornerstone Pharmacy Oakwood location exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "address": "1890 Oakwood Boulevard",
+          "city": "Maplewood",
+          "stateProvince": "NJ",
+          "postalCode": "07040",
+          "phone": "(555) 345-6789",
+          "fax": "(555) 345-6790",
+          "hours": {
+            "processed": "<ul><li>Monday - Friday: 8:00 AM - 9:00 PM</li><li>Saturday: 8:00 AM - 6:00 PM</li><li>Sunday: 9:00 AM - 5:00 PM</li></ul>",
+            "summary": "Monday - Friday: 8:00 AM - 9:00 PMSaturday: 8:00 AM - 6:00 PMSunday: 9:00 AM - 5:00 PM"
+          },
+          "servicesAvailable": [
+            "Prescription Filling",
+            "Immunizations",
+            "Medication Therapy Management",
+            "Blood Pressure Screening",
+            "Drive-Through Pickup",
+            "Free Delivery"
+          ],
+          "hasDriveThrough": true,
+          "pharmacistName": "Dr. Robert Kim, PharmD"
+        }
+      }
+    }
+  },
+  "/locations/riverside": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeLocation",
+          "id": "location-riverside",
+          "title": "Riverside Location",
+          "path": "/locations/riverside",
+          "body": {
+            "processed": "<p>The Riverside Cornerstone Pharmacy, our newest location, opened in 2019 in the Riverside Medical Plaza. Situated adjacent to several physician offices and a diagnostic imaging center, this location is ideal for patients who want to fill prescriptions immediately after their medical appointments. The Riverside store features a dedicated consultation room for private pharmacist consultations.</p>",
+            "summary": "The Riverside Cornerstone Pharmacy, our newest location, opened in 2019 in the Riverside Medical Plaza. Situated adjacent to several physician offices and a diagnostic imaging center, this location is"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+            "alt": "Cornerstone Pharmacy Riverside location in medical plaza",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "address": "420 Riverside Medical Plaza, Suite 100",
+          "city": "Maplewood",
+          "stateProvince": "NJ",
+          "postalCode": "07041",
+          "phone": "(555) 456-7890",
+          "fax": "(555) 456-7891",
+          "hours": {
+            "processed": "<ul><li>Monday - Friday: 7:30 AM - 7:00 PM</li><li>Saturday: 9:00 AM - 5:00 PM</li><li>Sunday: Closed</li></ul>",
+            "summary": "Monday - Friday: 7:30 AM - 7:00 PMSaturday: 9:00 AM - 5:00 PMSunday: Closed"
+          },
+          "servicesAvailable": [
+            "Prescription Filling",
+            "Immunizations",
+            "Medication Therapy Management",
+            "Blood Pressure Screening",
+            "Drive-Through Pickup",
+            "Free Delivery",
+            "Private Consultation Room"
+          ],
+          "hasDriveThrough": true,
+          "pharmacistName": "Dr. Patricia Santos, PharmD"
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Cornerstone Pharmacy",
+          "path": "/about",
+          "body": {
+            "processed": "<h2>Our Story</h2><p>Cornerstone Pharmacy was founded in 1991 by pharmacist David Hartley with a simple belief: that a pharmacy should be more than a dispensary. It should be a place where patients are known, their questions are answered, and their health is genuinely prioritized. Over three decades and three locations later, that founding philosophy remains at the heart of everything we do.</p><h2>What Sets Us Apart</h2><ul><li><strong>Personal relationships:</strong> Our pharmacists know our patients by name. We remember your medications, your allergies, and your preferences.</li><li><strong>Clinical expertise:</strong> Every Cornerstone pharmacist holds a Doctor of Pharmacy degree and stays current through continuous professional education.</li><li><strong>Proactive care:</strong> We don't just fill prescriptions. We review your complete medication profile, identify potential problems, and communicate with your healthcare providers to optimize your therapy.</li><li><strong>Community commitment:</strong> We sponsor health fairs, provide free blood pressure and glucose screenings, and partner with local organizations to improve community health outcomes.</li></ul><h2>Our Team</h2><p>Cornerstone employs 12 licensed pharmacists and 25 pharmacy technicians across our three locations. Our staff participates in ongoing education in medication therapy management, immunization certification, and specialty pharmacy services.</p>",
+            "summary": "Our StoryCornerstone Pharmacy was founded in 1991 by pharmacist David Hartley with a simple belief: that a pharmacy should be more than a dispensary. It should be a place where patients are known, the"
+          }
+        }
+      }
+    }
+  },
+  "/insurance-and-pricing": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-insurance",
+          "title": "Insurance & Pricing",
+          "path": "/insurance-and-pricing",
+          "body": {
+            "processed": "<h2>Insurance Plans Accepted</h2><p>Cornerstone Pharmacy accepts virtually all prescription insurance plans, including:</p><ul><li>Medicare Part D (all plans)</li><li>Medicaid</li><li>Blue Cross Blue Shield</li><li>Aetna</li><li>Cigna</li><li>United Healthcare / OptumRx</li><li>Express Scripts</li><li>CVS Caremark</li><li>Humana</li><li>Most workers' compensation plans</li></ul><h2>No Insurance? We Can Help.</h2><p>If you don't have prescription insurance, our pharmacists will work to find the best price for your medications. We offer:</p><ul><li><strong>Generic alternatives:</strong> We'll recommend affordable generic equivalents whenever available</li><li><strong>Manufacturer coupons:</strong> We actively search for and apply manufacturer savings programs</li><li><strong>Patient assistance programs:</strong> We help eligible patients apply for free or reduced-cost medications directly from pharmaceutical manufacturers</li><li><strong>Competitive cash pricing:</strong> Our cash prices are consistently lower than chain pharmacies on the most commonly prescribed medications</li></ul><h2>Price Transparency</h2><p>We believe you have the right to know what your medication will cost before you fill it. Call any of our locations or use our mobile app to check pricing before placing your order.</p>",
+            "summary": "Insurance Plans AcceptedCornerstone Pharmacy accepts virtually all prescription insurance plans, including:Medicare Part D (all plans)MedicaidBlue Cross Blue ShieldAetnaCignaUnited Healthcare / OptumR"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Landing page with hero section, features, and call-to-action areas",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string", "description": "Main headline in the hero section" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string", "description": "Secondary text below the hero title" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text", "description": "Longer descriptive text for the hero section" },
+        { "id": "features_title", "label": "Features Section Title", "type": "string" },
+        { "id": "features_subtitle", "label": "Features Section Subtitle", "type": "string" },
+        { "id": "features_items", "label": "Feature Items", "type": "paragraph(feature_item)[]", "description": "List of feature highlight blocks" },
+        { "id": "cta_title", "label": "CTA Section Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA Text", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA Text", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "service",
+      "label": "Service",
+      "description": "Pharmacy services offered to patients",
+      "body": true,
+      "fields": [
+        { "id": "image", "label": "Service Image", "type": "image", "description": "Featured image for the service" }
+      ]
+    },
+    {
+      "bundle": "health_tip",
+      "label": "Health Tip",
+      "description": "Health and wellness tips for patients",
+      "body": true,
+      "fields": [
+        { "id": "topic", "label": "Topic", "type": "string", "description": "Health topic category" },
+        { "id": "image", "label": "Featured Image", "type": "image", "description": "Image for the health tip" }
+      ]
+    },
+    {
+      "bundle": "location",
+      "label": "Location",
+      "description": "Pharmacy branch locations",
+      "body": true,
+      "fields": [
+        { "id": "address", "label": "Address", "type": "string", "description": "Street address of the location" },
+        { "id": "phone", "label": "Phone", "type": "string", "description": "Contact phone number" },
+        { "id": "hours", "label": "Hours", "type": "string", "description": "Operating hours" },
+        { "id": "image", "label": "Location Image", "type": "image", "description": "Photo of the location" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, contact, policies, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "feature_item",
+      "label": "Feature Item",
+      "description": "Individual feature highlight with icon, title, and description",
+      "fields": [
+        { "id": "icon", "label": "Icon", "type": "string", "description": "Lucide icon name for the feature" },
+        { "id": "title", "label": "Title", "type": "string!", "description": "Feature title (required)" },
+        { "id": "description", "label": "Description", "type": "text", "description": "Detailed description of the feature" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "feature-prescriptions",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "pill",
+        "title": "Prescription Services",
+        "description": "Fast, accurate prescription filling with same-day service and automatic refill reminders to keep you on track."
+      }
+    },
+    {
+      "id": "feature-consultations",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "stethoscope",
+        "title": "Free Consultations",
+        "description": "Our pharmacists are always available for free medication consultations to answer your questions and ensure your safety."
+      }
+    },
+    {
+      "id": "feature-delivery",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "truck",
+        "title": "Free Delivery",
+        "description": "Enjoy free prescription delivery to your home or office. No more waiting in line at the pharmacy."
+      }
+    },
+    {
+      "id": "feature-immunizations",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "syringe",
+        "title": "Immunizations",
+        "description": "Walk-in immunization services including flu shots, COVID boosters, shingles, and travel vaccines."
+      }
+    },
+    {
+      "id": "feature-compounding",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "flask-conical",
+        "title": "Custom Compounding",
+        "description": "Specialized compounding pharmacy services to create customized medications tailored to your specific needs."
+      }
+    },
+    {
+      "id": "feature-insurance",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "shield-check",
+        "title": "All Insurance Accepted",
+        "description": "We accept all major insurance plans and offer competitive pricing for uninsured patients with our discount program."
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "CareFirst Pharmacy Homepage",
+        "hero_title": "Your Health. Our Priority.",
+        "hero_subtitle": "Trusted Community Pharmacy Since 1998",
+        "hero_description": "<p>CareFirst Pharmacy provides personalized pharmaceutical care, free consultations, and convenient services to help you and your family stay healthy.</p>",
+        "features_title": "Why Choose CareFirst?",
+        "features_subtitle": "More than a pharmacy - we're your partner in health and wellness",
+        "features_items": [
+          "@feature-prescriptions",
+          "@feature-consultations",
+          "@feature-delivery",
+          "@feature-immunizations",
+          "@feature-compounding",
+          "@feature-insurance"
+        ],
+        "cta_title": "Ready to Switch to CareFirst?",
+        "cta_description": "<p>Transferring your prescriptions is easy. Call us or stop by any location and we'll handle everything for you. Experience the CareFirst difference today.</p>",
+        "cta_primary": "Transfer Prescription",
+        "cta_secondary": "Find a Location"
+      }
+    },
+    {
+      "id": "service-prescriptions",
+      "type": "node.service",
+      "path": "/services/prescription-filling",
+      "values": {
+        "title": "Prescription Filling & Refills",
+        "body": "<p>Our experienced pharmacists fill prescriptions quickly and accurately, with most prescriptions ready within 15 minutes. We offer automatic refill reminders via text, email, or phone so you never miss a dose.</p><h2>Services Include</h2><ul><li>Same-day prescription filling</li><li>Automatic refill reminders</li><li>Prescription transfer from other pharmacies</li><li>90-day supply options for maintenance medications</li><li>Medication synchronization (Med Sync) program</li></ul><h2>Insurance & Pricing</h2><p>We work with all major insurance providers and offer a competitive discount program for uninsured patients. Our team will help you find the most affordable option for every prescription.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80",
+          "alt": "Pharmacist filling prescriptions at the counter",
+          "title": "Prescription Filling Services"
+        }
+      }
+    },
+    {
+      "id": "service-immunizations",
+      "type": "node.service",
+      "path": "/services/immunizations",
+      "values": {
+        "title": "Immunizations & Vaccinations",
+        "body": "<p>Protect yourself and your family with our comprehensive immunization services. Our certified pharmacists can administer a wide range of vaccines without an appointment.</p><h2>Available Vaccines</h2><ul><li>Annual flu shots (seasonal influenza)</li><li>COVID-19 vaccines and boosters</li><li>Shingles (Shingrix)</li><li>Pneumonia (Prevnar 20, Pneumovax 23)</li><li>Tdap (tetanus, diphtheria, pertussis)</li><li>Travel vaccines (Hepatitis A & B, Typhoid)</li></ul><h2>Walk-Ins Welcome</h2><p>No appointment necessary for most vaccinations. Simply visit any CareFirst location during business hours. We accept most insurance plans for immunization services.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80",
+          "alt": "Pharmacist administering vaccination to patient",
+          "title": "Immunization Services"
+        }
+      }
+    },
+    {
+      "id": "service-compounding",
+      "type": "node.service",
+      "path": "/services/compounding",
+      "values": {
+        "title": "Custom Compounding",
+        "body": "<p>Our state-of-the-art compounding lab allows us to create customized medications when commercially available products don't meet your needs. Our compounding pharmacists work directly with your prescriber to develop the right formulation for you.</p><h2>Compounding Specialties</h2><ul><li>Hormone replacement therapy (HRT)</li><li>Dermatological preparations</li><li>Pediatric formulations (flavored liquids)</li><li>Pain management creams and gels</li><li>Veterinary compounding</li></ul><h2>Quality Assurance</h2><p>Every compounded medication undergoes rigorous quality testing to ensure potency, purity, and safety. Our lab follows USP 795 and USP 797 standards for non-sterile and sterile compounding.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&q=80",
+          "alt": "Pharmacist preparing custom compounded medication",
+          "title": "Custom Compounding Services"
+        }
+      }
+    },
+    {
+      "id": "service-delivery",
+      "type": "node.service",
+      "path": "/services/delivery",
+      "values": {
+        "title": "Free Prescription Delivery",
+        "body": "<p>Can't make it to the pharmacy? No problem. CareFirst offers free prescription delivery to your home, office, or anywhere you need it. Our reliable delivery service covers a wide area around each of our locations.</p><h2>How It Works</h2><ul><li>Call or use our app to request delivery</li><li>We'll prepare your prescriptions</li><li>Delivery within the same business day (orders by 2 PM)</li><li>Contactless delivery options available</li><li>Signature required for controlled substances</li></ul><h2>Delivery Area</h2><p>We deliver within a 15-mile radius of each CareFirst location. For addresses outside our delivery area, we offer convenient mail-order options with free shipping on orders over $25.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+          "alt": "Delivery driver bringing prescription medications",
+          "title": "Free Prescription Delivery"
+        }
+      }
+    },
+    {
+      "id": "health-tip-medication-safety",
+      "type": "node.health_tip",
+      "path": "/health-tips/medication-safety",
+      "values": {
+        "title": "5 Essential Medication Safety Tips",
+        "body": "<p>Taking medications correctly is crucial for your health. Here are five essential tips to ensure you're getting the most benefit from your medications while staying safe.</p><h2>1. Read the Label Carefully</h2><p>Always read the prescription label and any accompanying patient information. Pay attention to dosage instructions, timing, and whether to take with food.</p><h2>2. Keep a Medication List</h2><p>Maintain an up-to-date list of all medications you take, including over-the-counter drugs and supplements. Share this list with all your healthcare providers.</p><h2>3. Don't Skip Doses</h2><p>Take your medications exactly as prescribed. If you miss a dose, don't double up. Check with your pharmacist about what to do if you miss a dose of your specific medication.</p><h2>4. Store Properly</h2><p>Store medications according to the label instructions. Most should be kept in a cool, dry place away from direct sunlight. Some require refrigeration.</p><h2>5. Ask Your Pharmacist</h2><p>Your CareFirst pharmacist is always available to answer questions about your medications, potential interactions, and side effects. Don't hesitate to ask!</p>",
+        "topic": "Medication Safety",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80",
+          "alt": "Organized prescription medications on a table",
+          "title": "Medication Safety Tips"
+        }
+      }
+    },
+    {
+      "id": "health-tip-flu-prevention",
+      "type": "node.health_tip",
+      "path": "/health-tips/flu-prevention",
+      "values": {
+        "title": "Your Complete Guide to Flu Prevention",
+        "body": "<p>Flu season doesn't have to mean getting sick. With the right precautions, you can significantly reduce your risk of catching influenza and protect those around you.</p><h2>Get Vaccinated</h2><p>The single most effective way to prevent the flu is annual vaccination. The CDC recommends everyone 6 months and older get a flu vaccine each year. CareFirst offers walk-in flu shots at all locations.</p><h2>Practice Good Hygiene</h2><p>Wash your hands frequently with soap and water for at least 20 seconds. Use hand sanitizer when soap isn't available. Avoid touching your face, especially your eyes, nose, and mouth.</p><h2>Boost Your Immune System</h2><p>Support your body's natural defenses with adequate sleep (7-9 hours), regular exercise, a balanced diet rich in fruits and vegetables, and stress management techniques.</p><h2>When to See a Doctor</h2><p>If you develop flu symptoms (fever, body aches, cough, fatigue), contact your healthcare provider early. Antiviral medications are most effective when started within 48 hours of symptom onset.</p>",
+        "topic": "Preventive Care",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+          "alt": "Doctor administering flu vaccine to patient",
+          "title": "Flu Prevention Guide"
+        }
+      }
+    },
+    {
+      "id": "health-tip-vitamins",
+      "type": "node.health_tip",
+      "path": "/health-tips/vitamin-guide",
+      "values": {
+        "title": "Understanding Vitamins and Supplements",
+        "body": "<p>With so many vitamins and supplements available, it can be overwhelming to know what you actually need. This guide will help you make informed decisions about supplementation.</p><h2>Essential Vitamins</h2><p>Most people can get the nutrients they need from a balanced diet. However, certain groups may benefit from supplementation, including pregnant women, older adults, and those with specific deficiencies.</p><h2>Common Supplements</h2><ul><li><strong>Vitamin D</strong> - Important for bone health and immune function, especially in northern climates</li><li><strong>Vitamin B12</strong> - Essential for nerve function, particularly important for vegetarians</li><li><strong>Iron</strong> - Critical for oxygen transport, common deficiency in women</li><li><strong>Omega-3 Fatty Acids</strong> - Supports heart and brain health</li><li><strong>Probiotics</strong> - Promotes digestive health and immune function</li></ul><h2>Talk to Your Pharmacist</h2><p>Before starting any supplement, consult with your CareFirst pharmacist. We can review your medications for potential interactions and help you choose quality products.</p>",
+        "topic": "Nutrition & Wellness",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+          "alt": "Assorted vitamins and supplement bottles",
+          "title": "Vitamins and Supplements Guide"
+        }
+      }
+    },
+    {
+      "id": "health-tip-diabetes",
+      "type": "node.health_tip",
+      "path": "/health-tips/diabetes-management",
+      "values": {
+        "title": "Managing Diabetes: Tips from Your Pharmacist",
+        "body": "<p>Living with diabetes requires daily attention to medication, diet, and lifestyle. Your CareFirst pharmacist is an essential part of your diabetes care team.</p><h2>Medication Management</h2><p>Take your diabetes medications exactly as prescribed. If you use insulin, proper storage and injection technique are critical. Our pharmacists can review your technique and answer any questions.</p><h2>Blood Sugar Monitoring</h2><p>Regular blood sugar monitoring helps you understand how food, activity, and medications affect your levels. We carry a full range of glucose monitors and testing supplies at competitive prices.</p><h2>Healthy Lifestyle Habits</h2><ul><li>Eat regular, balanced meals with consistent carbohydrate intake</li><li>Stay physically active with at least 150 minutes of moderate exercise per week</li><li>Monitor your feet daily for cuts, blisters, or changes</li><li>Keep all medical appointments and lab tests</li><li>Know your A1C goal and check it every 3-6 months</li></ul><h2>CareFirst Diabetes Care Program</h2><p>Ask about our diabetes management program, which includes free blood pressure checks, medication therapy management, and educational resources.</p>",
+        "topic": "Chronic Conditions",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80",
+          "alt": "Blood glucose monitoring equipment",
+          "title": "Diabetes Management Tips"
+        }
+      }
+    },
+    {
+      "id": "location-downtown",
+      "type": "node.location",
+      "path": "/locations/downtown",
+      "values": {
+        "title": "CareFirst Downtown",
+        "body": "<p>Our flagship downtown location offers the full range of CareFirst pharmacy services in the heart of the city. Conveniently located near public transit, with ample parking available in the adjacent garage.</p><p>This location features our largest compounding lab and a private consultation room for confidential medication reviews. We also offer drive-through prescription pickup for your convenience.</p>",
+        "address": "100 Main Street, Suite 110, Springfield, IL 62701",
+        "phone": "(555) 100-2000",
+        "hours": "Mon-Fri: 8AM-9PM, Sat: 9AM-6PM, Sun: 10AM-4PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80",
+          "alt": "CareFirst Downtown pharmacy storefront",
+          "title": "CareFirst Downtown Location"
+        }
+      }
+    },
+    {
+      "id": "location-westside",
+      "type": "node.location",
+      "path": "/locations/westside",
+      "values": {
+        "title": "CareFirst Westside",
+        "body": "<p>Located in the Westside Medical Center complex, our Westside location provides seamless coordination with nearby physicians and specialists. Easy access for patients coming from medical appointments.</p><p>This location specializes in specialty medications and offers a dedicated immunization clinic with extended hours during flu season.</p>",
+        "address": "2500 West Medical Drive, Springfield, IL 62704",
+        "phone": "(555) 100-3000",
+        "hours": "Mon-Fri: 7AM-8PM, Sat: 8AM-5PM, Sun: Closed",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+          "alt": "CareFirst Westside pharmacy interior",
+          "title": "CareFirst Westside Location"
+        }
+      }
+    },
+    {
+      "id": "location-northpark",
+      "type": "node.location",
+      "path": "/locations/northpark",
+      "values": {
+        "title": "CareFirst North Park",
+        "body": "<p>Our newest location in the North Park Shopping Center brings CareFirst's trusted services to the growing north side community. Features modern amenities and a family-friendly environment.</p><p>This location offers a kids' corner, a wellness products section with organic and natural health products, and a blood pressure monitoring station open to all community members.</p>",
+        "address": "4800 North Park Boulevard, Springfield, IL 62707",
+        "phone": "(555) 100-4000",
+        "hours": "Mon-Fri: 8AM-9PM, Sat: 9AM-7PM, Sun: 10AM-5PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=800&q=80",
+          "alt": "CareFirst North Park modern pharmacy interior",
+          "title": "CareFirst North Park Location"
+        }
+      }
+    },
+    {
+      "id": "about-page",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About CareFirst Pharmacy",
+        "body": "<p>CareFirst Pharmacy has been serving our community since 1998, founded on the belief that every patient deserves personalized, compassionate pharmaceutical care.</p><h2>Our Mission</h2><p>To provide exceptional pharmacy services that improve the health and well-being of every patient we serve. We go beyond filling prescriptions - we build relationships and become a trusted part of your healthcare team.</p><h2>Our Team</h2><p>Our team of licensed pharmacists and certified technicians brings decades of combined experience to your care. Every team member is committed to ongoing education and training to stay current with the latest pharmaceutical advances.</p><h2>Community Involvement</h2><p>We believe in giving back to the community that has supported us for over 25 years. CareFirst regularly sponsors health fairs, provides free medication disposal events, and partners with local schools for health education programs.</p>"
+      }
+    },
+    {
+      "id": "privacy-page",
+      "type": "node.page",
+      "path": "/privacy-policy",
+      "values": {
+        "title": "Privacy Policy",
+        "body": "<p>At CareFirst Pharmacy, protecting your personal and health information is a top priority. This policy explains how we collect, use, and safeguard your information.</p><h2>Information We Collect</h2><p>We collect information necessary to provide pharmacy services, including your name, date of birth, contact information, insurance details, medical history, and prescription records.</p><h2>How We Use Your Information</h2><p>Your information is used to fill prescriptions, process insurance claims, provide medication counseling, and send refill reminders. We never sell your personal information to third parties.</p><h2>HIPAA Compliance</h2><p>CareFirst Pharmacy fully complies with the Health Insurance Portability and Accountability Act (HIPAA). We maintain strict policies and procedures to protect the confidentiality of your protected health information (PHI).</p><h2>Your Rights</h2><p>You have the right to access your health records, request corrections, and restrict certain uses of your information. Contact our privacy officer at privacy@carefirstrx.com or call (555) 100-2000 for more information.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-prescription",
+          "title": "Prescription Filling & Refills",
+          "path": "/services/prescription-filling",
+          "body": {
+            "processed": "<p>At the heart of everything we do is our commitment to filling your prescriptions accurately, affordably, and conveniently. Our pharmacists personally review every prescription for safety and appropriateness, checking for drug interactions, allergies, and correct dosing.</p><h2>How We're Different</h2><ul><li><strong>Personal attention:</strong> You'll see the same familiar faces every visit. Our pharmacists know you by name, not just your prescription number.</li><li><strong>Short wait times:</strong> Most prescriptions are ready in 15 minutes or less. We respect your time.</li><li><strong>Insurance navigation:</strong> We work with all major insurance plans and actively seek the lowest price for your medications, including manufacturer coupons and patient assistance programs.</li><li><strong>Automatic refills:</strong> Never miss a dose. Enroll in our automatic refill program and we'll have your medications ready before you run out.</li></ul><h2>Convenient Options</h2><ul><li>Online and mobile app prescription ordering</li><li>Drive-through pickup at our Oakwood and Riverside locations</li><li>Free home delivery within a 10-mile radius</li><li>90-day supply options for maintenance medications</li></ul>",
+            "summary": "At the heart of everything we do is our commitment to filling your prescriptions accurately, affordably, and conveniently. Our pharmacists personally review every prescription for safety and appropria"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&q=80",
+            "alt": "Pharmacist carefully counting and dispensing prescription medication",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Accurate, affordable prescription services with short wait times, automatic refills, and personalized pharmacist consultations.</p>",
+            "summary": "Accurate, affordable prescription services with short wait times, automatic refills, and personalized pharmacist consultations."
+          },
+          "availability": "All locations, during regular pharmacy hours",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Prescription Services",
+              "name": "Prescription Services"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-immunizations",
+          "title": "Immunizations & Vaccines",
+          "path": "/services/immunizations",
+          "body": {
+            "processed": "<p>Protect yourself and your family with convenient immunizations at Cornerstone Pharmacy. Our certified immunizing pharmacists administer a full range of vaccines for adults and children, often with no appointment necessary.</p><h2>Vaccines We Offer</h2><ul><li>Influenza (flu) - seasonal, high-dose for seniors available</li><li>COVID-19 - all approved boosters and updated formulations</li><li>Shingles (Shingrix)</li><li>Pneumococcal (Prevnar 20, Pneumovax 23)</li><li>Tdap (tetanus, diphtheria, pertussis)</li><li>Hepatitis A and B</li><li>Meningococcal</li><li>HPV (Gardasil 9)</li><li>RSV (for eligible adults 60+)</li><li>Travel vaccines (consult with our travel health pharmacist)</li></ul><h2>How It Works</h2><p>Walk in or schedule online. Complete a brief screening form. Our pharmacist will administer your vaccine and provide a digital record for your files. Most vaccines take less than 15 minutes from start to finish.</p><h2>Insurance Coverage</h2><p>Most immunizations are covered by insurance with no copay under preventive care benefits. For patients without insurance, we offer competitive cash pricing and can check eligibility for state-funded vaccine programs.</p>",
+            "summary": "Protect yourself and your family with convenient immunizations at Cornerstone Pharmacy. Our certified immunizing pharmacists administer a full range of vaccines for adults and children, often with no "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=800&q=80",
+            "alt": "Pharmacist administering a vaccine to a patient",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1615631648086-325025c9e51e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Walk-in immunizations for flu, COVID-19, shingles, pneumonia, and more. Most vaccines covered by insurance with no copay.</p>",
+            "summary": "Walk-in immunizations for flu, COVID-19, shingles, pneumonia, and more. Most vaccines covered by insurance with no copay."
+          },
+          "availability": "All locations, walk-ins welcome",
+          "insuranceAccepted": true,
+          "serviceCategory": [
+            {
+              "id": "Immunizations",
+              "name": "Immunizations"
+            },
+            {
+              "id": "Preventive Care",
+              "name": "Preventive Care"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-compounding",
+          "title": "Custom Compounding",
+          "path": "/services/custom-compounding",
+          "body": {
+            "processed": "<p>When commercially manufactured medications don't meet a patient's unique needs, our compounding pharmacists create customized medications tailored to individual requirements. Our state-of-the-art compounding lab at our Downtown location follows the highest quality and safety standards.</p><h2>When Compounding Is Needed</h2><ul><li><strong>Allergies or sensitivities:</strong> We can prepare medications without dyes, preservatives, gluten, lactose, or other allergens found in commercial products</li><li><strong>Discontinued medications:</strong> When a manufacturer discontinues a needed medication, we can often recreate it</li><li><strong>Pediatric dosing:</strong> Children often need smaller doses in flavored liquid or lozenge form</li><li><strong>Alternative dosage forms:</strong> Transdermal creams, suppositories, or sublingual preparations for patients who can't swallow pills</li><li><strong>Veterinary compounds:</strong> Flavored medications for pets who refuse standard formulations</li></ul><h2>Areas of Specialty</h2><ul><li>Hormone replacement therapy (BHRT)</li><li>Dermatology preparations</li><li>Pain management formulations</li><li>Pediatric suspensions and solutions</li><li>Veterinary compounds</li></ul><p>All compounding is performed by our specially trained pharmacists in an ISO-certified clean room environment.</p>",
+            "summary": "When commercially manufactured medications don't meet a patient's unique needs, our compounding pharmacists create customized medications tailored to individual requirements. Our state-of-the-art comp"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80",
+            "alt": "Pharmacist preparing custom compounded medication in a clean room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Customized medications tailored to individual patient needs, including allergen-free formulations, pediatric dosing, and hormone therapy.</p>",
+            "summary": "Customized medications tailored to individual patient needs, including allergen-free formulations, pediatric dosing, and hormone therapy."
+          },
+          "availability": "Downtown location only, by prescription",
+          "insuranceAccepted": false,
+          "serviceCategory": [
+            {
+              "id": "Compounding",
+              "name": "Compounding"
+            },
+            {
+              "id": "Specialty Pharmacy",
+              "name": "Specialty Pharmacy"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

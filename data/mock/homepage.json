@@ -1,0 +1,85 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Cornerstone Pharmacy",
+          "path": "/homepage",
+          "heroTitle": "Your Neighborhood Pharmacy, Reimagined",
+          "heroSubtitle": "Cornerstone Pharmacy",
+          "heroDescription": {
+            "processed": "<p>More than a place to pick up prescriptions. Cornerstone Pharmacy combines the personal service of a local pharmacy with the clinical expertise you deserve. From medication management to immunizations and wellness screenings, we are your partner in health.</p>",
+            "summary": "More than a place to pick up prescriptions. Cornerstone Pharmacy combines the personal service of a local pharmacy with the clinical expertise you deserve. From medication management to immunizations "
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80",
+            "alt": "Modern pharmacy counter with pharmacist consulting a customer",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-prescriptions",
+              "title": "",
+              "number": "500,000+",
+              "label": "Prescriptions Filled Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "35+",
+              "label": "Years Serving Our Community"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-locations",
+              "title": "",
+              "number": "3",
+              "label": "Convenient Locations"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-pharmacists",
+              "title": "",
+              "number": "12",
+              "label": "Licensed Pharmacists"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Transfer Your Prescriptions",
+          "ctaDescription": {
+            "processed": "<p>Switching to Cornerstone is easy. We handle the entire transfer process for you. Simply provide us with the name and phone number of your current pharmacy, and we'll take care of the rest. Most transfers are completed within one business day.</p>",
+            "summary": "Switching to Cornerstone is easy. We handle the entire transfer process for you. Simply provide us with the name and phone number of your current pharmacy, and we'll take care of the rest. Most transf"
+          },
+          "ctaPrimary": "Transfer Now",
+          "ctaSecondary": "Find a Location"
+        }
+      ]
+    }
+  }
+}

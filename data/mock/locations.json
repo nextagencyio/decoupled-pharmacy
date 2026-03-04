@@ -1,0 +1,179 @@
+{
+  "data": {
+    "nodeLocations": {
+      "__typename": "NodeLocationConnection",
+      "nodes": [
+        {
+          "__typename": "NodeLocation",
+          "id": "location-downtown",
+          "title": "Downtown Location",
+          "path": "/locations/downtown",
+          "body": {
+            "processed": "<p>Our flagship Downtown location is the original Cornerstone Pharmacy, serving the community since 1991. This location houses our compounding lab, specialty pharmacy department, and full-service immunization clinic. The Downtown store also features an expanded health and wellness section with natural supplements, vitamins, and personal care products curated by our pharmacists.</p>",
+            "summary": "Our flagship Downtown location is the original Cornerstone Pharmacy, serving the community since 1991. This location houses our compounding lab, specialty pharmacy department, and full-service immuniz"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+            "alt": "Cornerstone Pharmacy Downtown storefront",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "address": "245 Main Street",
+          "city": "Maplewood",
+          "stateProvince": "NJ",
+          "postalCode": "07040",
+          "phone": "(555) 234-5678",
+          "fax": "(555) 234-5679",
+          "hours": {
+            "processed": "<ul><li>Monday - Friday: 8:00 AM - 8:00 PM</li><li>Saturday: 9:00 AM - 6:00 PM</li><li>Sunday: 10:00 AM - 4:00 PM</li></ul>",
+            "summary": "Monday - Friday: 8:00 AM - 8:00 PMSaturday: 9:00 AM - 6:00 PMSunday: 10:00 AM - 4:00 PM"
+          },
+          "servicesAvailable": [
+            "Prescription Filling",
+            "Custom Compounding",
+            "Immunizations",
+            "Specialty Pharmacy",
+            "Medication Therapy Management",
+            "Blood Pressure Screening",
+            "Free Delivery"
+          ],
+          "hasDriveThrough": false,
+          "pharmacistName": "Dr. Margaret Liu, PharmD"
+        },
+        {
+          "__typename": "NodeLocation",
+          "id": "location-oakwood",
+          "title": "Oakwood Location",
+          "path": "/locations/oakwood",
+          "body": {
+            "processed": "<p>Our Oakwood location opened in 2010 to serve the growing needs of the west side of the community. This convenient location features a drive-through window for fast prescription pickup, a walk-in immunization clinic, and ample free parking. The Oakwood team prides itself on its friendly, neighborhood atmosphere and consistently short wait times.</p>",
+            "summary": "Our Oakwood location opened in 2010 to serve the growing needs of the west side of the community. This convenient location features a drive-through window for fast prescription pickup, a walk-in immun"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+            "alt": "Cornerstone Pharmacy Oakwood location exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "address": "1890 Oakwood Boulevard",
+          "city": "Maplewood",
+          "stateProvince": "NJ",
+          "postalCode": "07040",
+          "phone": "(555) 345-6789",
+          "fax": "(555) 345-6790",
+          "hours": {
+            "processed": "<ul><li>Monday - Friday: 8:00 AM - 9:00 PM</li><li>Saturday: 8:00 AM - 6:00 PM</li><li>Sunday: 9:00 AM - 5:00 PM</li></ul>",
+            "summary": "Monday - Friday: 8:00 AM - 9:00 PMSaturday: 8:00 AM - 6:00 PMSunday: 9:00 AM - 5:00 PM"
+          },
+          "servicesAvailable": [
+            "Prescription Filling",
+            "Immunizations",
+            "Medication Therapy Management",
+            "Blood Pressure Screening",
+            "Drive-Through Pickup",
+            "Free Delivery"
+          ],
+          "hasDriveThrough": true,
+          "pharmacistName": "Dr. Robert Kim, PharmD"
+        },
+        {
+          "__typename": "NodeLocation",
+          "id": "location-riverside",
+          "title": "Riverside Location",
+          "path": "/locations/riverside",
+          "body": {
+            "processed": "<p>The Riverside Cornerstone Pharmacy, our newest location, opened in 2019 in the Riverside Medical Plaza. Situated adjacent to several physician offices and a diagnostic imaging center, this location is ideal for patients who want to fill prescriptions immediately after their medical appointments. The Riverside store features a dedicated consultation room for private pharmacist consultations.</p>",
+            "summary": "The Riverside Cornerstone Pharmacy, our newest location, opened in 2019 in the Riverside Medical Plaza. Situated adjacent to several physician offices and a diagnostic imaging center, this location is"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+            "alt": "Cornerstone Pharmacy Riverside location in medical plaza",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "address": "420 Riverside Medical Plaza, Suite 100",
+          "city": "Maplewood",
+          "stateProvince": "NJ",
+          "postalCode": "07041",
+          "phone": "(555) 456-7890",
+          "fax": "(555) 456-7891",
+          "hours": {
+            "processed": "<ul><li>Monday - Friday: 7:30 AM - 7:00 PM</li><li>Saturday: 9:00 AM - 5:00 PM</li><li>Sunday: Closed</li></ul>",
+            "summary": "Monday - Friday: 7:30 AM - 7:00 PMSaturday: 9:00 AM - 5:00 PMSunday: Closed"
+          },
+          "servicesAvailable": [
+            "Prescription Filling",
+            "Immunizations",
+            "Medication Therapy Management",
+            "Blood Pressure Screening",
+            "Drive-Through Pickup",
+            "Free Delivery",
+            "Private Consultation Room"
+          ],
+          "hasDriveThrough": true,
+          "pharmacistName": "Dr. Patricia Santos, PharmD"
+        }
+      ]
+    }
+  }
+}

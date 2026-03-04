@@ -1,0 +1,171 @@
+{
+  "data": {
+    "nodeHealthTips": {
+      "__typename": "NodeHealthTipConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHealthTip",
+          "id": "health-tip-medication-safety",
+          "title": "10 Essential Tips for Medication Safety at Home",
+          "path": "/health-tips/medication-safety-at-home",
+          "body": {
+            "processed": "<p>Properly managing your medications at home is critical for your health and safety. Medication errors are one of the leading causes of preventable harm, but most can be avoided with simple precautions. Here are ten essential tips from our pharmacists.</p><h2>1. Keep an Updated Medication List</h2><p>Maintain a current list of all medications, including prescription drugs, over-the-counter products, vitamins, and supplements. Include the drug name, dose, how often you take it, and what it's for. Bring this list to every doctor and pharmacy visit.</p><h2>2. Use One Pharmacy</h2><p>Using a single pharmacy for all your prescriptions allows your pharmacist to check for drug interactions across your entire medication profile.</p><h2>3. Read the Label Every Time</h2><p>Don't rely on memory or the appearance of the pill. Read the label each time you take your medication to confirm the name, dose, and instructions.</p><h2>4. Store Medications Properly</h2><p>Most medications should be stored in a cool, dry place away from direct sunlight. The bathroom medicine cabinet is actually one of the worst places because of heat and humidity. Keep all medications out of reach of children and pets.</p><h2>5. Never Share Prescriptions</h2><p>A medication prescribed for you may be dangerous for someone else, even if they have similar symptoms.</p><h2>6. Use a Pill Organizer</h2><p>Weekly pill organizers make it easy to see whether you've taken your daily medications and reduce the risk of missed or double doses.</p><h2>7. Set Reminders</h2><p>Use phone alarms, medication reminder apps, or link your medication schedule to daily routines (like mealtimes) to stay on track.</p><h2>8. Don't Crush or Split Without Asking</h2><p>Some medications have special coatings that control how they're absorbed. Crushing or splitting them can cause too much medication to be released at once. Always ask your pharmacist before altering a medication's form.</p><h2>9. Dispose of Medications Safely</h2><p>Don't flush medications or throw them in the trash. Bring expired or unused medications to our pharmacy for safe disposal through our drug take-back program.</p><h2>10. Ask Your Pharmacist</h2><p>Your pharmacist is one of the most accessible healthcare professionals. Never hesitate to ask questions about your medications, side effects, or potential interactions.</p>",
+            "summary": "Properly managing your medications at home is critical for your health and safety. Medication errors are one of the leading causes of preventable harm, but most can be avoided with simple precautions."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80",
+            "alt": "Organized pill organizer with daily medication doses",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Simple precautions to prevent medication errors at home, from proper storage to using pill organizers and keeping an updated medication list.</p>",
+            "summary": "Simple precautions to prevent medication errors at home, from proper storage to using pill organizers and keeping an updated medication list."
+          },
+          "topic": [
+            {
+              "id": "Medication Safety",
+              "name": "Medication Safety"
+            }
+          ],
+          "authorName": "Dr. Margaret Liu, PharmD",
+          "publishedDate": {
+            "timestamp": 1762322400
+          }
+        },
+        {
+          "__typename": "NodeHealthTip",
+          "id": "health-tip-flu-season",
+          "title": "Preparing for Flu Season: What You Need to Know",
+          "path": "/health-tips/preparing-for-flu-season",
+          "body": {
+            "processed": "<p>Influenza season typically runs from October through May, with peak activity between December and February. Getting vaccinated is the single most effective step you can take to protect yourself and those around you.</p><h2>Who Should Get a Flu Shot?</h2><p>The CDC recommends annual flu vaccination for everyone 6 months of age and older. Vaccination is especially important for:</p><ul><li>Adults 65 and older</li><li>Pregnant women</li><li>Children under 5 years of age</li><li>People with chronic medical conditions (asthma, diabetes, heart disease)</li><li>Healthcare workers and caregivers</li></ul><h2>When to Get Vaccinated</h2><p>The best time to get your flu shot is in September or October, before flu season begins. It takes about two weeks for the vaccine to provide full protection. However, getting vaccinated later in the season is still beneficial.</p><h2>Beyond the Vaccine</h2><p>In addition to vaccination, these habits help reduce your risk:</p><ul><li>Wash your hands frequently with soap and water for at least 20 seconds</li><li>Avoid touching your face, especially your eyes, nose, and mouth</li><li>Stay home when you're sick to avoid spreading illness</li><li>Clean frequently touched surfaces regularly</li><li>Get adequate sleep, exercise, and nutrition to support your immune system</li></ul><h2>If You Get the Flu</h2><p>Contact your doctor within 48 hours of symptom onset. Antiviral medications like Tamiflu can reduce the severity and duration of illness if started early. Stay hydrated, rest, and monitor for warning signs like difficulty breathing, chest pain, or persistent high fever.</p>",
+            "summary": "Influenza season typically runs from October through May, with peak activity between December and February. Getting vaccinated is the single most effective step you can take to protect yourself and th"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&q=80",
+            "alt": "Person receiving a flu vaccine at a pharmacy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Everything you need to know about flu season, including when to get vaccinated, who's at highest risk, and how to protect your family.</p>",
+            "summary": "Everything you need to know about flu season, including when to get vaccinated, who's at highest risk, and how to protect your family."
+          },
+          "topic": [
+            {
+              "id": "Seasonal Health",
+              "name": "Seasonal Health"
+            },
+            {
+              "id": "Preventive Care",
+              "name": "Preventive Care"
+            }
+          ],
+          "authorName": "Dr. Robert Kim, PharmD",
+          "publishedDate": {
+            "timestamp": 1757912400
+          }
+        },
+        {
+          "__typename": "NodeHealthTip",
+          "id": "health-tip-blood-pressure",
+          "title": "Understanding Your Blood Pressure Numbers",
+          "path": "/health-tips/understanding-blood-pressure",
+          "body": {
+            "processed": "<p>High blood pressure, or hypertension, is often called the 'silent killer' because it typically has no symptoms but significantly increases your risk of heart disease, stroke, and kidney disease. Understanding your blood pressure numbers is the first step toward managing this condition.</p><h2>What the Numbers Mean</h2><p>Blood pressure is recorded as two numbers:</p><ul><li><strong>Systolic (top number):</strong> The pressure in your arteries when your heart beats</li><li><strong>Diastolic (bottom number):</strong> The pressure in your arteries between heartbeats</li></ul><h2>Blood Pressure Categories</h2><ul><li><strong>Normal:</strong> Less than 120/80 mmHg</li><li><strong>Elevated:</strong> 120-129 / less than 80 mmHg</li><li><strong>High Blood Pressure Stage 1:</strong> 130-139 / 80-89 mmHg</li><li><strong>High Blood Pressure Stage 2:</strong> 140+ / 90+ mmHg</li><li><strong>Hypertensive Crisis:</strong> Higher than 180/120 mmHg (seek immediate medical attention)</li></ul><h2>Lifestyle Changes That Help</h2><ul><li>Reduce sodium intake to less than 2,300 mg per day</li><li>Exercise at least 150 minutes per week (brisk walking, cycling, swimming)</li><li>Maintain a healthy weight</li><li>Limit alcohol consumption</li><li>Manage stress through relaxation techniques</li><li>Follow the DASH diet (rich in fruits, vegetables, whole grains, and low-fat dairy)</li></ul><h2>Free Blood Pressure Checks</h2><p>Cornerstone Pharmacy offers free blood pressure screenings at all three locations. No appointment needed. Stop by during regular pharmacy hours and our staff will take your reading and help you understand what it means.</p>",
+            "summary": "High blood pressure, or hypertension, is often called the 'silent killer' because it typically has no symptoms but significantly increases your risk of heart disease, stroke, and kidney disease. Under"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+            "alt": "Blood pressure monitor showing a reading",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "summary": {
+            "processed": "<p>Learn what your blood pressure numbers mean, when to be concerned, and lifestyle changes that can make a real difference.</p>",
+            "summary": "Learn what your blood pressure numbers mean, when to be concerned, and lifestyle changes that can make a real difference."
+          },
+          "topic": [
+            {
+              "id": "Heart Health",
+              "name": "Heart Health"
+            },
+            {
+              "id": "Chronic Disease",
+              "name": "Chronic Disease"
+            },
+            {
+              "id": "Preventive Care",
+              "name": "Preventive Care"
+            }
+          ],
+          "authorName": "Dr. Margaret Liu, PharmD",
+          "publishedDate": {
+            "timestamp": 1768024800
+          }
+        }
+      ]
+    }
+  }
+}
