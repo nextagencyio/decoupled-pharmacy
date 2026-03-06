@@ -45,28 +45,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-prescriptions",
               "title": "",
-              "number": "500,000+",
+              "number": "500,000+", "value": "500,000+",
               "label": "Prescriptions Filled Annually"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "35+",
+              "number": "35+", "value": "35+",
               "label": "Years Serving Our Community"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-locations",
               "title": "",
-              "number": "3",
+              "number": "3", "value": "3",
               "label": "Convenient Locations"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-pharmacists",
               "title": "",
-              "number": "12",
+              "number": "12", "value": "12",
               "label": "Licensed Pharmacists"
             }
           ],
