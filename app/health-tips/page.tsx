@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import HealthTipCard from '../components/HealthTipCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Health Tips | Greenleaf Pharmacy',
