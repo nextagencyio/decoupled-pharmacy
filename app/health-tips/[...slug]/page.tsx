@@ -24,7 +24,7 @@ interface HealthTipByPathData {
 async function getHealthTip(path: string): Promise<DrupalHealthTip | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_HEALTH_TIP_BY_PATH, { path })
+    const data = await client.raw(GET_HEALTH_TIP_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching health tip:', error)
