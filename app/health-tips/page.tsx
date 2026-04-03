@@ -16,11 +16,7 @@ export const metadata: Metadata = {
 async function getData() {
   try {
     const client = getClient()
-    const data = await client.raw<HealthTipsData>(({
-      query: GET_HEALTH_TIPS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    }))
+    const data = await client.raw<HealthTipsData>(GET_HEALTH_TIPS, { first: 50 })
     return data?.nodeHealthTips?.nodes || []
   } catch (error) {
     console.error('Error fetching health tips:', error)

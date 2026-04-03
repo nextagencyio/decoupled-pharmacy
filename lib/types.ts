@@ -97,10 +97,6 @@ export interface DrupalService {
   path?: string
   body?: { processed: string; summary?: string }
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
-  summary?: { processed: string; summary?: string }
-  availability?: string
-  insuranceAccepted?: string
-  serviceCategory?: string
 }
 
 export interface ServicesData {
@@ -115,10 +111,7 @@ export interface DrupalHealthTip {
   path?: string
   body?: { processed: string; summary?: string }
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
-  summary?: { processed: string; summary?: string }
   topic?: string
-  authorName?: string
-  publishedDate?: { timestamp: string }
 }
 
 export interface HealthTipsData {
@@ -134,15 +127,8 @@ export interface DrupalLocation {
   body?: { processed: string; summary?: string }
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
   address?: string
-  city?: string
-  stateProvince?: string
-  postalCode?: string
   phone?: string
-  fax?: string
-  hours?: { processed: string; summary?: string }
-  servicesAvailable?: string
-  hasDriveThrough?: string
-  pharmacistName?: string
+  hours?: string
 }
 
 export interface LocationsData {

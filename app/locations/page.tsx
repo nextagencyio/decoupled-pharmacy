@@ -16,11 +16,7 @@ export const metadata: Metadata = {
 async function getData() {
   try {
     const client = getClient()
-    const data = await client.raw<LocationsData>(({
-      query: GET_LOCATIONS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    }))
+    const data = await client.raw<LocationsData>(GET_LOCATIONS, { first: 50 })
     return data?.nodeLocations?.nodes || []
   } catch (error) {
     console.error('Error fetching locations:', error)

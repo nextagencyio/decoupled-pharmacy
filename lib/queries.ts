@@ -82,12 +82,19 @@ export const GET_HOMEPAGE_DATA = gql`
         path
         heroTitle
         heroSubtitle
-        heroDescription { processed summary }
-        heroImage { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-        statsItems { ... on ParagraphStatItem { id title description { processed } icon } }
-        featuredItemsTitle
+        heroDescription { processed }
+        featuresTitle
+        featuresSubtitle
+        featuresItems {
+          ... on ParagraphFeatureItem {
+            id
+            title
+            description { processed }
+            icon
+          }
+        }
         ctaTitle
-        ctaDescription { processed summary }
+        ctaDescription { processed }
         ctaPrimary
         ctaSecondary
       }
@@ -133,29 +140,24 @@ export const GET_NODE_BY_PATH = gql`
             }
           }
           ... on NodeHomepage {
+            __typename
             id
             title
             heroTitle
             heroSubtitle
-            heroDescription {
-              processed
-            }
+            heroDescription { processed }
             featuresTitle
             featuresSubtitle
             featuresItems {
               ... on ParagraphFeatureItem {
                 id
                 title
-                description {
-                  processed
-                }
+                description { processed }
                 icon
               }
             }
             ctaTitle
-            ctaDescription {
-              processed
-            }
+            ctaDescription { processed }
             ctaPrimary
             ctaSecondary
           }
@@ -176,10 +178,6 @@ export const GET_SERVICES = gql`
         ... on NodeService {
           body { processed summary }
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          summary { processed summary }
-          availability
-          insuranceAccepted
-          serviceCategory
         }
       }
     }
@@ -195,12 +193,8 @@ export const GET_SERVICE_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          summary { processed summary }
-          availability
-          insuranceAccepted
-          serviceCategory
+            body { processed summary }
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -219,10 +213,7 @@ export const GET_HEALTH_TIPS = gql`
         ... on NodeHealthTip {
           body { processed summary }
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          summary { processed summary }
           topic
-          authorName
-          publishedDate { timestamp }
         }
       }
     }
@@ -238,12 +229,9 @@ export const GET_HEALTH_TIP_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          summary { processed summary }
-          topic
-          authorName
-          publishedDate { timestamp }
+            body { processed summary }
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            topic
           }
         }
       }
@@ -263,15 +251,8 @@ export const GET_LOCATIONS = gql`
           body { processed summary }
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           address
-          city
-          stateProvince
-          postalCode
           phone
-          fax
-          hours { processed summary }
-          servicesAvailable
-          hasDriveThrough
-          pharmacistName
+          hours
         }
       }
     }
@@ -287,18 +268,11 @@ export const GET_LOCATION_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          address
-          city
-          stateProvince
-          postalCode
-          phone
-          fax
-          hours { processed summary }
-          servicesAvailable
-          hasDriveThrough
-          pharmacistName
+            body { processed summary }
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            address
+            phone
+            hours
           }
         }
       }
